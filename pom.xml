@@ -155,12 +155,12 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<descriptorRefs>
-								<descriptorRef>jar-with-dependencies</descriptorRef>
-							</descriptorRefs>
-							<!-- <descriptors> -->
-							<!-- <descriptor>assembly/assembly.xml</descriptor> -->
-							<!-- </descriptors> -->
+<!-- 							<descriptorRefs> -->
+<!-- 								<descriptorRef>jar-with-dependencies</descriptorRef> -->
+<!-- 							</descriptorRefs> -->
+							<descriptors>
+							<descriptor>assembly/assembly.xml</descriptor>
+							</descriptors>
 						</configuration>
 					</execution>
 				</executions>

@@ -1,0 +1,8 @@
+/.classpath
+/.project
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.jdt.core.prefs
+/.settings/org.eclipse.jdt.groovy.core.prefs
+/.settings/org.eclipse.m2e.core.prefs
+/target/.gitignore
+/target/test-shared-library-0.1-SNAPSHOT-jar-with-dependencies.jar
