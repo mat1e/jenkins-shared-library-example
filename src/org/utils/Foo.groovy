@@ -1,7 +1,7 @@
 package org.utils
 
 class Foo {
-	static String firstMethod() {
-		return "In first method"
+	static String firstMethod(String scriptName = "anonymous") {
+		return "In first method, called by " + scriptName
 	}
 }
