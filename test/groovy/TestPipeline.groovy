@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+package groovy
 import org.utils.Foo
 
 import com.lesfurets.jenkins.unit.global.lib.Library
@@ -10,10 +10,7 @@ def execute() {
 			echo "Something"
 			sayHello "Traveller"
 		}
-		stage("Middle") {
-			Foo foo = new Foo()
-			echo foo.firstMethod()
-		}
+		stage("Middle") { echo Foo.firstMethod() }
 		stage("Last") { echo "We're done" }
 	}
 }
