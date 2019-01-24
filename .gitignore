@@ -6,3 +6,9 @@
 /.settings/org.eclipse.m2e.core.prefs
 /target/.gitignore
 /target/test-shared-library-0.1-SNAPSHOT-jar-with-dependencies.jar
+/bin/
+
+/target/test-classes/src/org/utils/Foo.groovy
+/target/test-classes/vars/sayHello.groovy
+/target/test-classes/vars/secondScript.groovy
+/target/test-shared-library-0.1-SNAPSHOT-artifact.zip
