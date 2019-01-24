@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
 
-import utils.Foo
-
 import com.lesfurets.jenkins.unit.global.lib.Library
+
+import utils.Foo
 
 @Library('jenkins-shared-library-example@master')_
 def execute() {
