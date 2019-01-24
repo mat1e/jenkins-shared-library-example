@@ -26,7 +26,7 @@ class SayHelloTest extends BasePipelineTest {
 				.build()
 		helper.registerSharedLibrary(library)
 
-		setScriptRoots(['src/main/groovy', 'vars', 'src/test/groovy' ] as String[])
+		setScriptRoots(['src', 'vars', 'test/groovy' ] as String[])
 		setScriptExtension('groovy')
 
 		super.setUp()

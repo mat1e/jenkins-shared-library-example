@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-import utils.Foo
+import org.utils.Foo
 
 def call(String name = 'human') {
 	echo "Hello, ${name}."
