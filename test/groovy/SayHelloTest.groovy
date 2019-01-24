@@ -1,4 +1,5 @@
-package groovy
+#!/usr/bin/env groovy
+
 import static com.lesfurets.jenkins.unit.global.lib.LibraryConfiguration.library
 import static com.lesfurets.jenkins.unit.global.lib.LocalSource.localSource
 

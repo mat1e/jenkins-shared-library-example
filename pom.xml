@@ -47,7 +47,6 @@
 	<build>
 		<sourceDirectory>${project.basedir}/src</sourceDirectory>
 		<scriptSourceDirectory>${project.basedir}/vars</scriptSourceDirectory>
-		<testSourceDirectory>${project.basedir}/test</testSourceDirectory>
 		<resources>
 			<resource>
 				<directory>${project.basedir}/resources</directory>
@@ -65,7 +64,7 @@
 							<goal>testResources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/target/test-classes/groovy/jenkins-shared-library-example@master</outputDirectory>
+							<outputDirectory>${basedir}/target/test-classes/jenkins-shared-library-example@master</outputDirectory>
 							<resources>
 								<resource>
 									<directory>${project.basedir}</directory>
