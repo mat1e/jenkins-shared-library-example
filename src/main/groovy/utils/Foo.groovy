@@ -1,4 +1,4 @@
-package org.utils
+package utils
 
 class Foo {
 	static String firstMethod(String scriptName = "anonymous") {

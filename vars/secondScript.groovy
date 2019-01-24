@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
-import org.utils.Foo
+
+import utils.Foo
 
 def call(String step = 'uknown') {
 	echo "Called by " + step

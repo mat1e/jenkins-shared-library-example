@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-import org.utils.Foo
+import utils.Foo
 
 import com.lesfurets.jenkins.unit.global.lib.Library
 

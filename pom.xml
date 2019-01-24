@@ -45,11 +45,11 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>${project.basedir}/src</sourceDirectory>
+		<sourceDirectory>${project.basedir}/src/main/groovy</sourceDirectory>
 		<scriptSourceDirectory>${project.basedir}/vars</scriptSourceDirectory>
 		<resources>
 			<resource>
-				<directory>${project.basedir}/resources</directory>
+				<directory>${project.basedir}/src/main/resources</directory>
 			</resource>
 		</resources>
 		<plugins>
@@ -70,9 +70,9 @@
 									<directory>${project.basedir}</directory>
 									<filtering>true</filtering>
 									<includes>
-										<include>src/**/*.*</include>
+										<include>src/main/groovy/**/*.*</include>
 										<include>vars/**/*.*</include>
-										<include>resources/**/*.*</include>
+										<include>src/main/resources/**/*.*</include>
 									</includes>
 								</resource>
 							</resources>
@@ -101,7 +101,7 @@
 				<configuration>
 					<sources>
 						<source>
-							<directory>${project.basedir}/src</directory>
+							<directory>${project.basedir}/src/main/groovy</directory>
 							<includes>
 								<include>**/*.groovy</include>
 							</includes>
@@ -109,13 +109,13 @@
 					</sources>
 					<testSources>
 						<source>
-							<directory>${project.basedir}/test/java</directory>
+							<directory>${project.basedir}/src/test/java</directory>
 							<includes>
 								<include>**/*.java</include>
 							</includes>
 						</source>
 						<source>
-							<directory>${project.basedir}/test/groovy</directory>
+							<directory>${project.basedir}/src/test/groovy</directory>
 							<includes>
 								<include>**/*.groovy</include>
 							</includes>
