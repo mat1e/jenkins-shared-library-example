@@ -12,3 +12,4 @@
 /target/test-classes/vars/sayHello.groovy
 /target/test-classes/vars/secondScript.groovy
 /target/test-shared-library-0.1-SNAPSHOT-artifact.zip
+/.settings/org.eclipse.wst.common.project.facet.core.xml
