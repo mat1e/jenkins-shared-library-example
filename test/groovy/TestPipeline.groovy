@@ -7,6 +7,10 @@ import utils.Foo
 @Library('jenkins-shared-library-example@master')_
 def execute() {
 	node() {
+		withCredentials([
+			string( credentialsId: 'compte', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD' )
+		]) {
+		}
 		stage("First") {
 			echo "Something"
 			sayHello "Traveller"
