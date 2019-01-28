@@ -5,7 +5,7 @@
 
 Jenkins Shared Library example with Maven
 
-### References
+### References 
 
 * [Jenkins Shared Library Documentation](https://jenkins.io/doc/book/pipeline/shared-libraries/)
 * [Tutorial shared library](https://cleverbuilder.com/articles/jenkins-shared-library/)
